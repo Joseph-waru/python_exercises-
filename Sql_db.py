@@ -18,8 +18,8 @@ database= cursor.fetchall()
 print(database)
 
 #Create table Beginers_python 
-# cursor.execute("CREATE TABLE Beginers_python(id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, Name VARCHAR(255), User_name VARCHAR(255), Email VARCHAR(255))")
-# cursor.execute("CREATE TABLE Advance_python(id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, Name VARCHAR(255), User_name VARCHAR(255), Email VARCHAR(255), Beginer VARCHAR(255))")
+cursor.execute("CREATE TABLE Beginers_python(id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, Name VARCHAR(255), User_name VARCHAR(255), Email VARCHAR(255))")
+cursor.execute("CREATE TABLE Advance_python(id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, Name VARCHAR(255), User_name VARCHAR(255), Email VARCHAR(255), Beginer VARCHAR(255))")
 
 ## fetch tables
 cursor.execute("DESC Beginers_python")
